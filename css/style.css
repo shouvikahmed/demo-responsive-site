@@ -1,0 +1,55 @@
+body {
+  background: #333;
+  color: #fff;
+}
+/* Navigation */
+.navbar {
+  border-bottom: lightslategray 3px solid;
+  opacity: 0.9;
+}
+.navbar-brand {
+  margin-left: 10px;
+}
+.navbar-collapse {
+  margin-right: 10px;
+}
+/* Navigation End */
+
+/* Home Section */
+#home-section {
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+}
+#home-section .home-inner {
+  padding-top: 150px;
+}
+.d-lg-block {
+  text-align: center;
+}
+
+#explore-head-section {
+  height: 200px;
+}
+
+.fa-battle-net {
+  color: #15aabf;
+}
+#explore-head-section {
+  background-color: #192849;
+  height: 250px;
+}
+#signup {
+  color: lightyellow;
+  font-size: 16px;
+}
